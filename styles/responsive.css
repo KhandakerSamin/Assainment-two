@@ -1,0 +1,26 @@
+@media screen and (max-width:450px) {
+    .nav-container{
+        flex-direction: column;   
+    }
+    .logo-container{
+        padding: 0px;
+    }
+    .nav-items-container{
+        flex-direction: column;
+        width: 100%;  
+    }
+}
+
+
+@media screen and (min-width:450px) and (max-width:800px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .logo-container{
+        padding: 0px;
+        width: auto;
+    }
+    .nav-items-container{
+        width: auto;
+    }
+}
