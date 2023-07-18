@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* navber section styles stats here */
+
+nav {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    width: 50%;
+    justify-content: stretch;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.logo-container img {
+    width: 80px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.logo-text {
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.G-design {
+    color: #FF42A5;
+}
+
+
+
+/* navber section styles ends here */
