@@ -19,6 +19,8 @@ nav {
 .nav-container {
     display: flex;
     align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .logo-container {
@@ -80,11 +82,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .banner1-title {
     width: 50%;
-    background-image: url(/images/Group\ 14.png);
+    text-align: left;
+    /* background-image: url(/images/Group\ 14.png); */
 }
 
 .banner1-title h3 {
@@ -115,7 +120,7 @@ nav {
     font-size: 20px;
     font-weight: 500;
     text-transform: lowercase;
-    margin-left: 240px;
+    margin-left: 200px;
     justify-content: center;
 }
 
@@ -132,7 +137,7 @@ nav {
     background-color: #FF42A5;
     border: none;
     border-radius: 48px;
-    margin-left: 220px;
+    margin-left: 180px;
     margin-right: 30px;
 }
 
@@ -140,15 +145,55 @@ nav {
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     padding: 21px 40px;
     background-color: #4EC5F7;
     border: none;
     border-radius: 48px;
 }
 
-.banner1-img{
+.banner1-img {
     width: 50%;
+    margin-right: 80px;
 }
 
 /* banner1 section ends here */
+
+/* funny-videos section starts here */
+.funny-videos {
+    margin-top: 120px;
+}
+
+.funny-videos h2 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.funny-videos p {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.funny-videos .funny-text {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.card-container {
+    display: flex;
+    margin: 0 auto;
+    min-height: 400px;
+    gap: 15px;
+    max-width: 1440px;
+}
+
+/* funny-videos section ends here */
