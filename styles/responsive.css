@@ -1,7 +1,8 @@
 @media screen and (max-width:450px) {
 
     .nav-container,
-    .card-container,.play {
+    .card-container,
+    .play {
         flex-direction: column;
     }
 
@@ -43,11 +44,13 @@
     .card-container .card {
         margin: 30px;
     }
-    .play-title{
+
+    .play-title {
         width: 100%;
     }
-    .play-img  {
-    height: 300px;
+
+    .play-img {
+        height: 300px;
     }
 }
 
