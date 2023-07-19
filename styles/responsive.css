@@ -50,7 +50,15 @@
     }
 
     .play-img {
-        height: 300px;
+        width: 20%;
+        margin: 200px;
+    }
+
+
+
+    .button-container .first-row .second-row{
+        flex-direction: column;
+
     }
 }
 

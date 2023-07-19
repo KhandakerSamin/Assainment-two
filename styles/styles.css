@@ -274,6 +274,7 @@ nav {
 .first-row :hover {
     border: 1px solid rgba(255, 66, 165, 1);
     cursor: pointer;
+    color: rgba(255, 66, 165, 1) ;
 }
 
 .second-row {
@@ -285,10 +286,12 @@ nav {
 .second-row :hover {
     border: 1px solid rgba(255, 66, 165, 1);
     cursor: pointer;
+    color: rgba(255, 66, 165, 1) ;
 }
 
 .btn :hover {
     border: none;
+    color: rgba(255, 66, 165, 1) ;
 }
 
 .btn {
