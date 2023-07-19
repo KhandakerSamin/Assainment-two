@@ -265,10 +265,24 @@ nav {
     margin-bottom: 25px;
 }
 
+.first-row :hover {
+    border: 1px solid rgba(255, 66, 165, 1);
+    cursor: pointer;
+}
+
 .second-row {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+.second-row :hover {
+    border: 1px solid rgba(255, 66, 165, 1);
+    cursor: pointer;
+}
+
+.btn :hover {
+    border: none;
 }
 
 .btn {
@@ -280,16 +294,23 @@ nav {
     gap: 10px;
 }
 
+/* .btn :hover{
+    border: 1px solid rgba(255, 66, 165, 1) ;
+    cursor: pointer;
+} */
+
 .btn p {
     text-align: center;
     color: #0B0223;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
+    border: none;
 }
 
 .btn img {
     gap: 5px;
+    border: none;
 }
 
 /* buttons section ends here */
