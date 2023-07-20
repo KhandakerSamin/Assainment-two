@@ -5,7 +5,15 @@
     .banner1-container,
     .card-container,
     .play ,
-    .nav-items-container{
+    .nav-items-container,
+    .first-row,
+    .second-row,
+    .footer-logo,
+    .footer-nav,
+    .footer-icon,
+    .footer-p,
+    .footer-end
+    {
         flex-direction: column;
     }
 
@@ -55,33 +63,46 @@
     .banner1-title button {
         margin: 0px;
     }
+    
 
     /* banner1 section ends here */
 
     /* card container section starts here */
 
-    .play{
-        margin-top: 0px;
-    }
-
     .card-container .card {
         margin: 30px;
     }
-
+ /* card container section ends here */
+   
+ /* play section starts here */
+    .play{
+        max-width: 350px;
+        margin: 0 auto;
+    }
     .play-title {
         width: 100%;
     }
-
-    .play-img {
-        width: 20%;
-        margin: 200px;
+    .play-img{
+        height: 350px;
+        width: 300px;
     }
-
-    .button-container .first-row .second-row{
-        flex-direction: column;
+    .main-img{
+        height: 50%;
+        width: 50%;
     }
-
+    .up-img{
+        height: 50%;
+        font-weight: 50%;
+    }
+    .play{
+        display: none;
+    }
+    
     /* card container section ends here  */
+
+    /* buttons section starts here */
+
+    /* buttons section ends here  */
 }
 
 

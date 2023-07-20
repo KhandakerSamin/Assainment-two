@@ -142,7 +142,7 @@ nav {
     background-color: #FF42A5;
     border: none;
     border-radius: 48px;
-    margin-left: 150px;
+    margin-left: 140px;
     margin-right: 30px;
 }
 
@@ -150,7 +150,6 @@ nav {
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
-    /* text-transform: uppercase; */
     padding: 21px 40px;
     background-color: #4EC5F7;
     border: none;
@@ -205,7 +204,41 @@ nav {
 .card :hover {
     filter: blur(5px);
     cursor: pointer;
+    
 }
+
+
+
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Set the overlay background color and opacity */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Start with 0 opacity to hide the text */
+    transition: opacity 0.3s ease;
+}
+
+/* Show the text when hovering over the container */
+.image-container:hover .image-overlay {
+    opacity: 1;
+}
+
+/* Add styling for the text inside the overlay */
+.image-overlay p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+
 
 
 /* funny-videos section ends here */
@@ -258,6 +291,7 @@ nav {
 /* play section ends here */
 
 /* buttons section starts here */
+
 .button-container {
     background-color: rgba(255, 66, 165, 1), rgba(255, 66, 165, 1);
     min-height: 400px;
@@ -304,10 +338,6 @@ nav {
     gap: 10px;
 }
 
-/* .btn :hover{
-    border: 1px solid rgba(255, 66, 165, 1) ;
-    cursor: pointer;
-} */
 
 .btn p {
     text-align: center;
@@ -322,76 +352,6 @@ nav {
     gap: 5px;
     border: none;
 }
-
-/* 
-.button-container {
-    background-color: rgba(255, 66, 165, 1), rgba(255, 66, 165, 1);
-    min-height: 400px;
-    max-width: 1540px;
-    margin: 0 auto;
-}
-
-.first-row {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 25px;
-}
-
-.first-row :hover {
-    border: 1px solid rgba(255, 66, 165, 1);
-    cursor: pointer;
-    color: rgba(255, 66, 165, 1) ;
-}
-
-.second-row {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.second-row :hover {
-    border: 1px solid rgba(255, 66, 165, 1);
-    cursor: pointer;
-    color: rgba(255, 66, 165, 1) ;
-}
-
-.btn :hover {
-    border: none;
-    color: rgba(255, 66, 165, 1) ;
-}
-
-.btn {
-    display: flex;
-    align-items: center;
-    border: 1px solid seashell;
-    border-radius: 50px;
-    padding: 5px 25px;
-    gap: 10px;
-}
-
-.btn :hover{
-    border: 1px solid rgba(255, 66, 165, 1) ;
-    cursor: pointer;
-} 
-
-.btn p {
-    text-align: center;
-    color: #0B0223;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    border: none;
-}
-
-.btn img {
-    gap: 5px;
-    border: none;
-} */
-
-/* buttons section ends here */
-
-/* footer section starts here */
 
 .footer-container {
     min-height: 500px;
